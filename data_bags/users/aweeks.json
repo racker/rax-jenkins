@@ -1,0 +1,15 @@
+{
+  "id": "aweeks",
+  "comment": "Alex Weeks",
+  "shell": "/bin/bash",
+  "uid": 1206,
+  "gid": 1206,
+  "groups": [ "sudo" ],
+  "email": "alex.weeks@rackspace.com",
+  "phone": "",
+  "github": "aweeks",
+  "sso": "alex5154",
+  "ircnick": "aweeks",
+  "ssh_keys": [
+  ]
+}

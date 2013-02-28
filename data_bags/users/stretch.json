@@ -1,0 +1,10 @@
+{
+  "id": "stretch",
+  "comment": "Dev User",
+  "shell": "/bin/bash",
+  "uid": 1000,
+  "gid": 1300,
+  "groups": [ "sudo" ],
+  "ssh_keys": [],
+  "dev": true
+}

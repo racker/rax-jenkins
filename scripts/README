@@ -1,0 +1,23 @@
+This directory contains some scripts for working with a VMware Fusion dev vm.
+
+Requirements: plumbum (directly from the git repo at
+https://github.com/tomerfiliba/plumbum until a version > 0.9 is in Pypi), and
+vmrunwrapper (http://github.com/racker/vmrunwrapper)
+
+The setup_vm.py script downloads a VM image, copies it to the default VMware
+VM location, and bootstraps the VM.
+
+The setup_vm.py script should be called from the chef repo root:
+
+    cd <root of this chef repo>; python scripts/setup_vm.py
+
+
+In order for vmrunwrapper to know which VM you want to manipulate, please set the environment variable VMRUNWRAPPER_CONF to point to
+scripts/vmrunwrapper.conf once it has been generated (by the setup_vm.py
+script).  Then, add vmwrap-up to somewhere on your path (not an alias).  This
+way, `vmwrap up` (run from anywhere) should do approximately the same thing
+`vagrant up` would do for a VirtualBox VM.
+
+TL;DR version:
+ 1. export VMRUNWRAPPER_CONF=<chef repo>/scripts/vmrunwrapper.conf
+ 2. export PATH=<chef repo>/scripts:$PATH

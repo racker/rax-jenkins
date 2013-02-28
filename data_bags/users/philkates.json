@@ -1,0 +1,16 @@
+{
+  "id": "philkates",
+  "comment": "Phil Kates",
+  "shell": "/bin/bash",
+  "uid": 1201,
+  "gid": 1201,
+  "groups": [ "sudo" ],
+  "email": "phil.kates@rackspace.com",
+  "phone": "650-255-0317",
+  "github": "philk",
+  "sso": "phil.kates",
+  "ircnick": "philK",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArZKmhliW4UO1lsl0YWTcj2+bTawvKp6Fnq8ezPYiwnqyj+vbbIJXLj2OJootHLOwrjfgvy/R1hdXzA2l2xlnGobdH7PmJv3RoYMB/EIe8TRQk7M27/iIzIlftWY01djDBnwfrtgagAgBB7yzzy3/xLdaLB9Vbxx0yXi8z1eJr+cgEPf3Ksy992zKl5IRqaFxeTug4XYa0pOee+AwGFs9mqUL4DBh7H6rqUnhec7hVutkBqFl6nmeZyUAJFLwhuN1+678ihDRW7JmCttVZY/ic2HETY/wukOUgCWWyn6N5DyquSF31C2BrEyJGnNdvnT+fxOSlGu+yeBWuEQjZMwFhQ== phil.kates@M0G9HE6"
+  ]
+}

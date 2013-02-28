@@ -1,0 +1,16 @@
+{
+  "id": "dreid",
+  "comment": "David Reid",
+  "shell": "/bin/bash",
+  "uid": 1202,
+  "gid": 1202,
+  "groups": [ "sudo" ],
+  "email": "david.reid@rackspace.com",
+  "phone": "",
+  "github": "dreid",
+  "sso": "davi4817",
+  "ircnick": "dreid",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAgEA9v99NS+G3LcAmbC8MEDhmaTU2WeGOlb6rIJKy/XzKfDvdnay3cGRTLuX/HDQ4iacTUKu7jrknG+unlwahlqvZMPnKVdEBsnpVaYf+na3yG/5JtVW2Odgg4Q6nGUmdtTWMl3adeil3JNa6HKqqrlaTuymhdwfGUG2A+AjIC65YZpgwMH9dkoXhkRxC9konOGNsgTp1GU2PeS1Qxv3ijtqRQiDQtATz6GyRtwBTTbXjuFQGaOLQF0aGHCALpQBHIoP64zW1LFh8yM9tuw3p27SDAb0LcwPqmXblrREkVXyULIMeXs7WHq9tcIm1jElxIMFj+5LaSDAPTYCiQz9sq0b3ANOXJs2qzRieF5bQFcHP1lpFoxXbvLge3LYWzNJwKb8zInqU5F/Vc9ZOK1bC2DUc1zezxpGbgWLZCTY1o+RAoDMTGnuMJf3pp3mWrTO4jPSWb6p3P3Whf86JjvLS5VDKyMLV3lJvi25SeOiBk1xpvKdZHZsFS7lLdLl+1SSOcEgkvOflg/kRQCYdgqOULs5GLA2UiuLfdPCL1Mwm4JqRMN8tqHBQC+wnwUKhP5rXH6+oRSvZfPYQT8b/v6LS4PFs6SCv8//Sv67ZM9WYa3Y7agB1sLBQv3f/SXmPUurfYJ62wl0Js0rl5v9Pp8m/9VPVZ7FU7IrCJUN9HdZEvA3X3E= dreid@sabrina"
+  ]
+}

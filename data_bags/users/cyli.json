@@ -1,0 +1,16 @@
+{
+  "id": "cyli",
+  "comment": "Ying Li",
+  "shell": "/bin/bash",
+  "uid": 1207,
+  "gid": 1207,
+  "groups": [ "sudo" ],
+  "email": "ying.li@rackspace.com",
+  "phone": "",
+  "github": "cyli",
+  "sso": "ying4792",
+  "ircnick": "cyli",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDH9Qv5nhz6u+5QwR0vS/nyEIMBKoY81wlUMQzF4lzQ2I56JmqePvOVtS+tvmUsK+ggPHhakqE1uupwBOBfUJ3/7BHnViXX9qqWuwB2WYqSLOQmTZNYYQwwBGhEEVX1hcT7uza+tsSGP+QCLYpGMlMIlDcH7VXVdLUo5HDyKDk6FbUBcf5evG982sCC9IbaZcOaPEOrviw9Aoe6AmighZxj//rIeNvhfcMln62S1fB7jVN+n6uwFZk4nJw4EEE/THqs3g3mX9mse1bwDLXGWBJc1bNv/rGgoWICgf2EL7f3020xfqMET2NtJ20tpwmCq3W/KLmsi8F9EFerbu9efWJ864cLfqHDueEIv0XOb3l+4NCSH+lQu3sskqXH9JwxDYt4kNdjJwGrSscFW2SliTStyElhjx1uzyLxkjfBZs9S1Q5vaFA0FxPy19GycxU5KhEFCtW/WiyPOfjXLN8F06qy60hOyU12PUpbBHxa412fHkKV2c7RXvSCsSLpYIeyGCCkHyKVrMX8UhEUThIAA4jEt80Deol1+VQmYNzWbGCHWYPpvvParPbRFdIw5QIVRmLjeoXu4/o0V5tN+9IJMCpfDFoSqYeFXgSOPlOw7txVDdduIULOkxlLwsg6V8oXcwktsi9I/0ltdcsL6EBCWTgg3D2ZXRJPoxET82n8o93AQQ== cyli"
+  ]
+}

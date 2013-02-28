@@ -1,0 +1,106 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.9.0)
+    ark (0.0.17)
+    build-essential (1.3.4)
+    chef_handler (1.1.4)
+    dmg (1.1.0)
+    erlang (1.1.2)
+      yum (>= 0.5.0)
+    firewall (0.10.2)
+    git (2.1.2)
+      build-essential (>= 0.0.0)
+      dmg (>= 0.0.0)
+      runit (>= 0.0.0)
+      windows (>= 0.0.0)
+      yum (>= 0.0.0)
+    hostsfile (0.2.5)
+    java (1.9.4)
+      windows (>= 0.0.0)
+    mongodb (0.11.0)
+      apt (>= 0.0.0)
+    nginx (1.3.0)
+      build-essential (>= 0.0.0)
+      ohai (>= 1.1.4)
+    ntp (1.3.2)
+    ohai (1.1.8)
+    openssh (1.1.4)
+    openssl (1.0.0)
+    python (1.2.2)
+      build-essential (>= 0.0.0)
+      yum (>= 0.0.0)
+    rabbitmq (1.8.0)
+      apt (>= 1.4.4)
+      erlang (>= 0.9)
+      yum (>= 0.5.0)
+    rsyslog (1.5.0)
+    runit (1.0.4)
+      build-essential (>= 0.0.0)
+    tmux (1.2.2)
+    vim (1.0.2)
+    windows (1.8.2)
+      chef_handler (>= 0.0.0)
+    yum (2.1.0)
+    zlib (2.0.0)
+
+GIT
+  remote: git@github.com:racker/cookbook-mailgun.git
+  ref: master
+  sha: 6a659d11667ef68efd9b9d4c3a57f4bc3ebb9113
+  specs:
+    mailgun (0.1.0)
+
+GIT
+  remote: https://github.com/racker/cookbook-cassandra.git
+  ref: master
+  sha: d42cffe2206dcf65e34768903df72e13ffad91c1
+  specs:
+    cassandra (0.0.3)
+      ark (>= 0.0.0)
+      java (>= 0.0.0)
+      mailgun (>= 0.0.0)
+      python (>= 0.0.0)
+      required_attributes (>= 0.0.0)
+      runit (>= 1.0.0)
+
+GIT
+  remote: https://github.com/racker/cookbook-cloudmonitoring.git
+  ref: master
+  sha: ab8e6e7151d205e083c62596373c02b21d5ba2d6
+  specs:
+    cloud_monitoring (0.1.3)
+      python (>= 0.0.0)
+
+GIT
+  remote: https://github.com/racker/cookbook-required_attributes.git
+  ref: master
+  sha: 786e1c4cafab5b2b1eec0e8c67f3e4567f84dffd
+  specs:
+    required_attributes (0.0.1)
+
+DEPENDENCIES
+  apt (>= 0)
+  ark (>= 0)
+  cassandra (>= 0)
+  chef_handler (>= 0)
+  cloud_monitoring (>= 0)
+  firewall (>= 0)
+  git (>= 0)
+  hostsfile (>= 0)
+  mailgun (>= 0)
+  mongodb (>= 0)
+  nginx (>= 0)
+  ntp (>= 0)
+  ohai (>= 0)
+  openssh (>= 0)
+  openssl (>= 0)
+  python (>= 0)
+  rabbitmq (>= 0)
+  required_attributes (>= 0)
+  rsyslog (>= 0)
+  runit (>= 0)
+  tmux (>= 0)
+  vim (>= 0)
+  zlib (>= 0)
+
