@@ -1,0 +1,38 @@
+{
+  "name": "base",
+  "description": "Base Packages",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "packages": [
+      "build-essential",
+      "slurm",
+      "htop",
+      "curl"
+    ],
+    "ohai": {
+      "plugins": {
+        "ohai-plugins": "plugins"
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "chef_type": "role",
+  "run_list": [
+    "recipe[apt]",
+    "recipe[firewall-rules]",
+    "recipe[git]",
+    "recipe[hosts]",
+    "recipe[java]",
+    "recipe[ntp]",
+    "recipe[ohai]",
+    "recipe[python]",
+    "recipe[rsyslog]",
+    "recipe[runit]",
+    "recipe[tmux]",
+    "recipe[users]",
+    "recipe[vim]"
+  ],
+  "env_run_lists": {
+  }
+}

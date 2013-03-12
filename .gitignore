@@ -1,0 +1,9 @@
+tmp
+*.pyc
+stretch*.tar.gz
+scripts/vmrunwrapper.conf
+nodes/vmware.json
+metadata.json
+shared
+*.swp
+*.swo

@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "description": "API servers running otter",
+  "json_class": "Chef::Role",
+  "chef_type": "role",
+  "default_attributes": {
+    "otter": {
+      "filename": "otter-deploy-precise-12.04-c989f2712b908efbc9ef4e887e4ef540101bd7f0-101.tar.gz",
+      "checksum": "76617858a4108f6d3b9917b4164d367d18c9153c7178872b429d1de68dfb915a",
+      "version": "101",
+      "logger": "otter.log.observer_factory",
+      "config": {
+        "port": 9000,
+        "keyspace": "otter",
+        "mock": false
+      }
+    }
+  },
+  "override_attributes": {
+  },
+  "run_list": [
+    "recipe[otter]",
+    "recipe[otter::deploy]",
+    "recipe[otter::services]"
+  ],
+  "env_run_lists": {
+  }
+}

@@ -1,0 +1,3 @@
+[submodule "cookbooks/cassandra"]
+  path = cookbooks/cassandra
+  ignore = untracked

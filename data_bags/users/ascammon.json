@@ -1,0 +1,16 @@
+{
+  "id": "ascammon",
+  "comment": "Alex Scammon",
+  "shell": "/bin/bash",
+  "uid": 1203,
+  "gid": 1203,
+  "groups": [ "sudo" ],
+  "email": "alex.scammon@rackspace.com",
+  "phone": "",
+  "github": "stackedsax",
+  "sso": "alex5208",
+  "ircnick": "",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmNLLaHmuGPPk8zNrPotOjGCDU/roAybWkR6zlL0D5kPQUafV+OdrCt8lRYvsBJmMvhswHJOD4CLCAjemO7EoONHL+l/dNDxTb3nP7D1/fTC46pjSgAJ8cHBrQtu7BzAr+rMMBGhLt93GVSJI9QoECUhGV6t958MD57qR3UbJ4eKx8pbzThAfSYJ7oCPp3eilwMeXifcaSnYHGSrn8dBZWjYY0yNqYJRcsLt/pLYf8tL+EbH9dhBR7J+td/8s+aE0z/iyrxgLD6fozkVqiURrTlbZxK+amvi8wNUtZ/GlxM3SoCqn5734hn0/QWdbFPunhF0uaJCd6Ydeefo2dsF2l alex@alexscammon.com"
+  ]
+}

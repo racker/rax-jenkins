@@ -1,0 +1,16 @@
+{
+  "id": "dborin",
+  "comment": "David Borin",
+  "shell": "/bin/bash",
+  "uid": 1202,
+  "gid": 1202,
+  "groups": [ "sudo" ],
+  "email": "david.borin@rackspace.com",
+  "phone": "",
+  "github": "dborin",
+  "sso": "david.borin",
+  "ircnick": "",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCxxH6/1ghnfos+uLN9N3MmA9R+ihPggw60kff46HGktt0wJNV7EJqTRCWRDnGq1ibKVF4yxRsSmjQAuwRW9MBVa4lPhoOf/8ZZnJUBFz99SqIIwbs10/jrqAQ1LPQHsbM44+FMtKbar9Lkc9XK3EdPj5JZmRhum6cZPMqBjWxtl/KUn5BKXI3Hs21szSKoyY+IvMBQWYtOKxuKMMZDsPsA8KNjGVS9u7MRQyndfTbzAEbpdaV+jCsxPdc4hlCVKq/INWPtTsOm0rM3RbvT5Z7eO05OQF8YLJ8aSrfemP6V8+lFdwbDG2qvwvEhFfPXdJNAvcHXrdz0YYxf38FO44VB dborin@dborin-macbook"
+  ]
+}

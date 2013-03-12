@@ -1,0 +1,2 @@
+plumbum>=1.0.0
+-e git+git@github.com:racker/vmrunwrapper.git@993e6338dce134f6d02c0b06d07c4fd37763dcbb#egg=vmrunwrapper-dev

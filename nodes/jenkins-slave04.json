@@ -1,0 +1,8 @@
+{
+    "ipaddress": "166.78.149.70",
+    "name": "jenkins-slave04",
+    "run_list": [
+        "role[base]",
+        "role[jenkins_slave]"
+    ]
+}

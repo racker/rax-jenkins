@@ -13,14 +13,13 @@
       "ssl_key": "/etc/ssl/private/rax.io.key",
       "ssl_cert": "/etc/ssl/certs/rax.io.crt",
       "ssl_chain": "/etc/ssl/certs/rax.io_chain.crt",
-      "proxy_hostname": "as-jenkins.rax.io"
+      "proxy_hostname": "glimpse-jenkins.rax.io"
     }
   },
   "chef_type": "role",
   "run_list": [
     "recipe[jenkins::master]",
-    "recipe[jenkins::nginx_proxy]",
-    "recipe[otter::builds]"
+    "recipe[jenkins::nginx_proxy]"
   ],
   "env_run_lists": {
   }

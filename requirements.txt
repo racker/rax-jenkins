@@ -1,0 +1,8 @@
+# There is a bug with fabric 1.6 (which is the latest version):
+# https://github.com/fabric/fabric/issues/811
+
+# littlechef 1.4.1 requires fabric >= 1.4.2, which means 1.6 gets installed.
+# We want to pin fabric to one we know works, which is 1.5.1
+
+Fabric==1.5.1
+littlechef>=1.4.1
