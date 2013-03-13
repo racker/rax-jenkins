@@ -1,0 +1,16 @@
+{
+  "id": "erooth",
+  "comment": "Ed Rooth",
+  "shell": "/bin/bash",
+  "uid": 1204,
+  "gid": 1204,
+  "groups": [ "sudo" ],
+  "email": "ed.rooth@rackspace.com",
+  "phone": "",
+  "github": "sym3tri",
+  "sso": "ed4412",
+  "ircnick": "sym3tri",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDKvh+It3h9hhaPFRWRkw5SXoJqCgeMCqlr8Ygwrru0r/2vRiaXo0MpYoildzkmQc/hgu+b1wrDFa/ci6DrwZETSzziq7D40lN5TuaVDF64U/GUsQxNQqNNY1y1BGSegQWU5mXL83LJ+gdaALf/pej2VAjDc3D5Q/LpRRmdEGS8iYxE9HhXM6BSyYi49HesViOeISBVjh4GD3hF5B1hmdEDL5hVgbD7Ck5IyLFTZSK5SKUn1OcPsgmg9MwQgGAs7ea37GL1I1fmyJZh5z6bH7Hx0AN7aJtk5j6+z5NtMNcZ0LXFntkmm5Iad1Qp3bk/ywOmWi5b9USJgbaZhvGKoFkP ed.rooth@rackspace.com"
+  ]
+}
