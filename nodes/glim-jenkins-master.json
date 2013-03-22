@@ -1,6 +1,6 @@
 {
-    "ipaddress": "166.78.31.248",
-    "name": "jenkins-master",
+    "ipaddress": "10.14.209.192",
+    "name": "glim-jenkins-master",
     "run_list": [
         "role[base]",
         "role[jenkins_master]"

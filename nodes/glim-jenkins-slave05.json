@@ -1,0 +1,8 @@
+{
+    "ipaddress": "10.14.209.87",
+    "name": "glim-jenkins-slave05",
+    "run_list": [
+        "role[base]",
+        "role[jenkins_slave]"
+    ]
+}
