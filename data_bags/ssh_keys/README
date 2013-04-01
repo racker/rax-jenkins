@@ -1,0 +1,1 @@
+The "jenkins" user is necessary so that Jenkins master can do things on Jenkins slaves.
