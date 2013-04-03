@@ -18,7 +18,9 @@ def main():
 
     # begin hackery to load config file until littlechef gets fixed (04DEC2012)
 
+    ### CHANGE THE ssh_config VALUE AS NEEDED ###
     ssh_config = "~/.ssh/chef.config"
+
     lc.env.use_ssh_config = True
     lc.env.ssh_config = _SSHConfig()
     lc.env.ssh_config_path = os.path.expanduser(ssh_config)
@@ -28,8 +30,10 @@ def main():
     lc.env.host_string = options.hostname
     lc.env.host = options.hostname
     lc.env.node_work_path = "/tmp/chef-solo"
-    lc.env.encrypted_data_bag_secret = "/etc/chef/data_bag_secret_key"
     lc.env.follow_symlinks = False
+
+    ### CHANGE THIS TO POINT TO WHERE YOU SAVED THE FILE ###
+    lc.env.encrypted_data_bag_secret = "/etc/chef/data_bag_secret_key.txt"
 
     # We need the ohai plugins installed before running Chef
     lc.plugin("install_omnibus_chef")

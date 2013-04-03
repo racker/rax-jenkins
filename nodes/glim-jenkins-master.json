@@ -1,8 +1,0 @@
-{
-    "ipaddress": "10.14.209.192",
-    "name": "glim-jenkins-master",
-    "run_list": [
-        "role[base]",
-        "role[jenkins_master]"
-    ]
-}
