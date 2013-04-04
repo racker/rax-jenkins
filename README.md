@@ -51,6 +51,7 @@ Simply run `./bootstrap.py`
 ##Jenkins Config
 
 1. It is **strongly recommended** that some form of auth be put in place to secure the Jenkins master.  Either `htpasswd` or the (public) Github OAuth plugin be used.
+	
 	a. The Github OAuth plugin is extremely easy to configure.  Within your Github account, go to [https://github.com/settings/applications](https://github.com/settings/applications) and add your Jenkins master, following the instructions.  Once created, you can maintain ownership or transfer to another organization (i.e. "racker")
 	
 	b. On the Jenkins Master -- Manage Jenkins >> Configure Global Security -- Under 'Access Control' choose 'Github Authentication Plugin' and fill in the appropriate fields with the information from the Githup application you just configured
@@ -58,6 +59,7 @@ Simply run `./bootstrap.py`
 2. Set the number of executors on the Jenkins master to zero -- Manage Jenkins >> Configure System
 	
 3. Within the Jenkins master, make sure to add the slave(s) -- Manage Jenkins >> Manage Nodes >> New Node
+	
 	a.  Make sure you set 2 - 5 executors on each slave -- Click on slave link >> Configure
 
 
