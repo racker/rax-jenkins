@@ -38,6 +38,9 @@ Add an SSH public key to the root user on the remote servers, in `.ssh/authorize
 
 5. Follow the README instructions in the `nodes` directory for creating node JSON files for your master and slave(s)
 
+6. **Make sure that you change** `roles/jenkins_master.json` "proxy_hostname" to point to either the IP or FQDN of your Jenkins master.  You can send an email to Felix Sargent (felix.sargent@rackspace.com) to request a rax.io subdomain be added that points to your Jenkins master's IP (i.e. teamX-jenkins.rax.io).  
+
+
 ## Run
 Simply run `./bootstrap.py`
 
