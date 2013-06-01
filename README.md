@@ -1,12 +1,12 @@
 #rax-jenkins
 
 ##Introduction
-This is a fork of the autoscale-chef repo, with many large parts removed from that repo to focus on bringing up Jenkins master/slave machines.
+This is a fork of the [autoscaling-chef repo](https://github.com/rackerlabs/autoscaling-chef), with many large parts removed from that repo to focus on bringing up Jenkins master/slave machines.
 
 ##Servers
-You'll need to spin up at least two Linux (Ubuntu) servers, one to act as master and one to act as a slave to run the actual jobs.  Obviously you can have more than one slave machine.
+You'll need to spin up at least two Linux (Ubuntu) servers: one to act as master and one to act as a slave to run the actual jobs.  You can have more than one slave machine, but you'll need one at a minimum.
 
-Create a local `.ssh/chef.config` file (NOT on the remote servers where you're going to install Jenkins) and put your servers in it.  It's a good idea to separate out Chef related SSH entries from the standard ones in your `.ssh/config`.
+Create a local `.ssh/chef.config` file (NOT on the remote servers where you're going to install Jenkins) and put your servers in it.  It is a good idea to separate out Chef-related ssh entries from the standard ones in your `.ssh/config`.
 
 Example:
 
@@ -46,7 +46,7 @@ Simply run `./bootstrap.py`
 
 	$ ./bootstrap.py -H 10.10.10.10
 	
-	or
+or, if you have set up a CNAME for your Jenkins master:
 	
 	$ ./bootstrap.py -H mywidget-jenkins-master
 	
@@ -60,6 +60,8 @@ Simply run `./bootstrap.py`
 	b. On the Jenkins Master -- Manage Jenkins >> Configure Global Security -- Under 'Access Control' choose 'Github Authentication Plugin' and fill in the appropriate fields with the information from the Githup application you just configured
 	
 2. Set the number of executors on the Jenkins master to zero -- Manage Jenkins >> Configure System
+ 
+    * This makes sure your master only is set up to orchestrate when jobs should start and not to perform the actual jobs themselves.  This avoids the risk of the master going down because of some CPU-intensive or hung job.   
 	
 3. Within the Jenkins master, make sure to add the slave(s) -- Manage Jenkins >> Manage Nodes >> New Node
 	
